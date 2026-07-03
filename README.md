@@ -51,7 +51,7 @@
 
 ### 2ª Normalização
 <p align="center">
-    <img src="segunda-normalizacao.png">
+    <img src="segunda-normalizacao1.png">
 </p>
 
 ### 3ª Normalização
