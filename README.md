@@ -56,11 +56,11 @@
 
 ### 3ª Normalização
 <p align="center">
-<<<<<<< HEAD
+
     <img src="terceira-normalizacao.png">
-=======
+
     <img src="terceira-normalizacao1.png">
->>>>>>> 6ecbb81b7696b262b05487885a5db519fe3daa5c
+
 </p>
 
 ## Modelo Lógico
