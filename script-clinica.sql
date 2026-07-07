@@ -12,7 +12,11 @@ email varchar(100) not null unique,
 telefone varchar(15) not null,
 datanascimento date not null
 );
+<<<<<<< HEAD
 CREATE TABLE medido(
+=======
+CREATE TABLE medico(
+>>>>>>> 6ecbb81b7696b262b05487885a5db519fe3daa5c
 idmedico int auto_increment primary key,
 nomemedico varchar(50) not null,
 crm varchar(20) not null unique,
@@ -30,4 +34,33 @@ horaconsulta time not null,
 datahoraagendamento datetime default current_timestamp()
 );
 
+<<<<<<< HEAD
+=======
+ALTER TABLE agendamento
+ADD CONSTRAINT `fk_agendamento_pk_paciente`
+FOREIGN KEY `agendamento`(`idpaciente`)
+REFERENCES `paciente`(`idpaciente`);
+
+ALTER TABLE agendamento
+ADD CONSTRAINT `fk_agendamento_pk_medico`
+FOREIGN KEY `agendamento`(`idmedico`)
+REFERENCES `medico`(`idmedico`);
+
+
+-- Vamos fazer uso do comando SELECT para selecionar os dados da tabela
+-- paciente
+-- SELECT : COMANDO PARA SELECIONAR
+-- * (ASTERISCO) INDICA QUE TODOS OS CAMPOS DA TABELA SERÃO SELECIONADOS
+-- FROM INDICA A ORIGEM, OU SEJA, DE ONDE VEM OS DADOS
+-- NOME DA TABELA
+SELECT * FROM paciente;
+-- Vamos usar o comando INSERT para cadastrar um novo paciente
+-- INSERT -> INSERIR
+-- INTO -> DENTRO
+-- DEFINIÇÃO DE QUAIS CAMPOS SERÃO CADASTRADOS
+-- VALUES -> VALORES
+-- DEFINIÇÃO DE VALORES QUE SERÃO CADASTRADOS
+INSERT INTO paciente(nomepaciente,cpfpaciente,email,telefone,datanascimento)
+VALUES("Vagner Souza","22222222222","vagner@gmail.com","11111111","1992-02-18");
+>>>>>>> 6ecbb81b7696b262b05487885a5db519fe3daa5c
 

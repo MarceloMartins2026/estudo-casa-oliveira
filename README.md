@@ -36,12 +36,12 @@
 ## Modelo Conceitual
 
 <p align="center">
-    <img src="diagrama_casa_oliveira.drawio.png">
+    <img src="diagrama_casa_oliveira1.png">
 </p>
 
 ## Normalizações
 <p align="center">
-    <img src="normalizacao.png">
+    <img src="normalizacao1.png">
 </p>
 
 
@@ -51,19 +51,23 @@
 
 ### 2ª Normalização
 <p align="center">
-    <img src="segunda-normalizacao.png">
+    <img src="segunda-normalizacao1.png">
 </p>
 
 ### 3ª Normalização
 <p align="center">
+<<<<<<< HEAD
     <img src="terceira-normalizacao.png">
+=======
+    <img src="terceira-normalizacao1.png">
+>>>>>>> 6ecbb81b7696b262b05487885a5db519fe3daa5c
 </p>
 
 ## Modelo Lógico
 
 ### Diagrama do Modelo Lógico
 <p align="center">
-    <img src="diagrama-modelo-logico.png">
+    <img src="diagrama-modelo-logico1.png">
 </p>
 
 ### Modelo de Entidade Relacional - Modelo Lógico
