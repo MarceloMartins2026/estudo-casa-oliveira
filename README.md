@@ -56,7 +56,7 @@
 
 ### 3ª Normalização
 <p align="center">
-    <img src="terceira-normalizacao.png>
+    <img src="terceira-normalizacao.png">
 </p>
 
 ## Modelo Lógico
@@ -68,7 +68,7 @@
 
 ### Modelo de Entidade Relacional - Modelo Lógico
 <p align="center">
-    <img src="mer-casaoliveira.png">
+    <img src="mer-casaoliveira1.png">
 </p>
 
 ## Modelo Físico
